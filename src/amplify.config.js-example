@@ -1,0 +1,28 @@
+const awsFixPDQWebapp = {
+    Auth: {
+      // Amazon Cognito Region
+      region: "#{AWS_REGION}#",
+
+      // Amazon Cognito User Pool ID
+      userPoolId: "#{COGNITO_USERPOOL_ID}#",
+
+      // Amazon Cognito Web Client ID (26-char alphanumeric string)
+      userPoolWebClientId: "#{COGNITO_WEBCLIENT_ID}#",
+
+      // Amazon Cognito Identity Pool ID
+      identityPoolId: "#{COGNITO_IDENTITYPOOL_ID}#"
+    },
+    API: {
+      endpoints: [
+        {
+          name: 'main',
+          endpoint: '#{API_ENDPOINT_MAIN}#'
+        }
+      ]
+    },
+    webApp: {
+      browserNotificationKey: '#{VAPID_PUBLICKEY}#'
+    }
+  };
+
+  export default awsFixPDQWebapp;

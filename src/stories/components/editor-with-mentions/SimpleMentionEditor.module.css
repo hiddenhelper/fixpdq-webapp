@@ -1,0 +1,37 @@
+.editor {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: text;
+  padding: 16px;
+  border-radius: 2px;
+  margin-bottom: 2em;
+  box-shadow: inset 0px 1px 8px -3px #ababab;
+  background: #fefefe;
+}
+
+.editor :global(.public-DraftEditor-content) {
+  min-height: 140px;
+}
+
+.rdw-storybook-root {
+  margin: 50px;
+  width: 90%;
+}
+.rdw-storybook-wrapper {
+}
+.rdw-storybook-editor {
+  border: 1px solid #f1f1f1;
+  padding: 5px;
+  border-radius: 2px;
+  height: 200px;
+}
+.rdw-storybook-toolbar {
+  top: -130px;
+}
+.rdw-storybook-textarea {
+  margin-top: 20px;
+  resize: none;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  height: 100px;
+}

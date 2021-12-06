@@ -1,0 +1,277 @@
+{
+  "Users": [
+      {
+          "Username": "1d56ff40-996f-4562-a3a4-9d047268d5c3",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "4343bcb5-3516-442f-a02e-e200eab43a6c"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "false"
+              },
+              {
+                  "Name": "email",
+                  "Value": "richard+user5@fixpdq.com"
+              }
+          ],
+          "UserCreateDate": "2020-10-02T11:58:24.488Z",
+          "UserLastModifiedDate": "2020-10-02T11:58:24.488Z",
+          "Enabled": true,
+          "UserStatus": "UNCONFIRMED"
+      },
+      {
+          "Username": "3a2dabd5-8c09-496a-b8ad-365df53d32ef",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "6acdc155-8c1e-4264-ac54-f7ea6a5ddd53"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "andrey@fixpdq.com "
+              }
+          ],
+          "UserCreateDate": "2020-09-30T10:23:13.625Z",
+          "UserLastModifiedDate": "2020-09-30T10:23:46.178Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "568a493d-e4da-46a2-8f75-14305d84c697",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "b1767ec5-3a91-4740-a991-b3689958822c"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "emort@mrisemail.net"
+              }
+          ],
+          "UserCreateDate": "2020-09-28T23:19:05.558Z",
+          "UserLastModifiedDate": "2020-09-28T23:19:26.747Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "6a75f8e9-6e4c-41ad-ab2b-870d13c0ba97",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "430de678-e72e-480a-8cc6-bccbf85e0699"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "ciniy98793@tinkmail.net"
+              }
+          ],
+          "UserCreateDate": "2020-09-22T07:01:41.361Z",
+          "UserLastModifiedDate": "2020-09-22T07:01:54.579Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "7c14444e-b851-4a79-b880-d1dcff8105c0",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "5aeaec97-e13a-4678-967f-416fa29cfee7"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "adyvico@gmail.com"
+              }
+          ],
+          "UserCreateDate": "2020-09-30T10:12:01.082Z",
+          "UserLastModifiedDate": "2020-09-30T10:12:32.737Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "978d51e0-2209-4be9-a79e-c9ed42588aaa",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "6f25e726-c2eb-4c9f-a651-92286334fb07"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "sol@fixpdq.com"
+              }
+          ],
+          "UserCreateDate": "2020-10-06T03:06:28.475Z",
+          "UserLastModifiedDate": "2020-10-06T03:11:44.222Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "b10756ab-58bb-4655-978b-948640d20e73",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "263c08d3-fb4c-4ac8-badc-8dc8c329d093"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "andrey@fixpdq.com"
+              }
+          ],
+          "UserCreateDate": "2020-09-30T10:26:22.902Z",
+          "UserLastModifiedDate": "2020-09-30T10:26:43.743Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "b950cbd9-02f9-4ed2-a734-b15528076869",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "16b03572-f946-4b18-8c3f-22c59c6f85cf"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "tony@fixpdq.com"
+              }
+          ],
+          "UserCreateDate": "2020-10-19T21:34:11.413Z",
+          "UserLastModifiedDate": "2020-10-19T21:35:09.343Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "dfbc3fa3-d506-4eb9-b1a1-1b12f5b604b9",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "922e8986-87a9-4ae3-9448-19cd78eb5544"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "richard+user1@mindginative.com"
+              }
+          ],
+          "UserCreateDate": "2020-09-22T07:07:39.424Z",
+          "UserLastModifiedDate": "2020-09-22T07:08:24.535Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "e09aa9ae-f1f2-4175-952d-4448acfdf07c",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "56cc83a0-be15-410b-9b27-5d97bead9524"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "false"
+              },
+              {
+                  "Name": "email",
+                  "Value": "richard.user1@mindginative.com"
+              }
+          ],
+          "UserCreateDate": "2020-09-30T11:51:05.095Z",
+          "UserLastModifiedDate": "2020-09-30T11:51:05.095Z",
+          "Enabled": true,
+          "UserStatus": "UNCONFIRMED"
+      },
+      {
+          "Username": "e36e9d09-6354-48c9-9e92-6d61f824c665",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "3cd6fe1e-1508-4566-a129-c02bdb606360"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "rommel@fixpdq.com"
+              }
+          ],
+          "UserCreateDate": "2020-10-19T11:37:49.733Z",
+          "UserLastModifiedDate": "2020-10-19T11:38:15.475Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "fa4d3aed-d4e9-4f36-b9d1-f52499e9dd9f",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "e67f5f16-d5ae-4032-9743-266d19707ce6"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "richard@mindginative.com"
+              }
+          ],
+          "UserCreateDate": "2020-09-30T11:54:01.698Z",
+          "UserLastModifiedDate": "2020-09-30T11:54:18.975Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      },
+      {
+          "Username": "fdd626f3-332c-454a-b02d-668eaa6213f5",
+          "Attributes": [
+              {
+                  "Name": "sub",
+                  "Value": "72e696e3-3dc8-470d-852e-d47a0f11c025"
+              },
+              {
+                  "Name": "email_verified",
+                  "Value": "true"
+              },
+              {
+                  "Name": "email",
+                  "Value": "richard+user10@mindginative.com"
+              }
+          ],
+          "UserCreateDate": "2020-10-02T12:00:19.266Z",
+          "UserLastModifiedDate": "2020-10-02T12:00:48.736Z",
+          "Enabled": true,
+          "UserStatus": "CONFIRMED"
+      }
+  ]
+}

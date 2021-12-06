@@ -1,0 +1,705 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/* Colors: */
+@fix_magenta: #ED4C9A;
+@fix_green: #7CBD6D;
+@fix_yellow: #FFCC00;
+@fix_pink: #E694D2;
+@fix_grey: #99A5B1;
+@fix_blue: #5CAAEE;
+@fix_olive: #5FC3A7;
+@fix_yellow2: #E7C842;
+@fix_ginger: #EDAE6A;
+@fix_orange: #F09176;
+@fix_red: #E27472;
+@fix_white: #FFFFFF;
+@fix_grey0: #F5F6F7;
+@fix_grey1: #EFEFEF;
+@fix_grey2: #BFBEBE;
+@fix_grey3: #8F8F8F;
+@fix_black: #4A4A4A;
+@fix_yellow3: #F6CD46;
+@fix_grey4: #00000040;
+
+@color-707070: #707070;
+
+/* Font/text values */
+@font-family-font-awesome-5-pro: Font Awesome 5 Pro;
+@font-family-clear-sans: Clear Sans, sans-serif;
+@font-style-normal: normal;
+@font-weight-300: 300px;
+@font-weight-normal: normal;
+@font-weight-bold: bold;
+@font-size-8: 8px;
+@font-size-9: 9px;
+@font-size-10: 10px;
+@font-size-12: 12px;
+@font-size-14: 14px;
+@font-size-16: 16px;
+@font-size-20: 20px;
+@font-size-24: 24px;
+@font-size-32: 32px;
+@character-spacing-0: 0px;
+@character-spacing-0-8: 0.8px;
+@character-spacing-1-2: 1.2px;
+@line-spacing-12: 12px;
+@line-spacing-16: 16px;
+@line-spacing-18: 18px;
+@line-spacing-20: 20px;
+@line-spacing-22: 22px;
+@line-spacing-30: 30px;
+@line-spacing-47: 47px;
+@line-spacing-54: 54px;
+@text-transform-uppercase: uppercase;
+
+/* default font */
+@fontName: @font-family-clear-sans;
+
+/* Character Styles */
+.fix_hero_32 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-32;
+     line-height: @line-spacing-47;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+     text-transform: @text-transform-uppercase;
+}
+.fix_hero_white_32 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-32;
+     line-height: @line-spacing-47;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+     text-transform: @text-transform-uppercase;
+}
+.fix_menu_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-1-2;
+     color: @fix_black;
+     text-transform: @text-transform-uppercase;
+}
+.fix_menu_white_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-1-2;
+     color: @fix_white;
+     text-transform: @text-transform-uppercase;
+}
+.fix_menu_grey2_12 {
+     font-family: @font-family-clear-sans !important;
+     font-style: @font-style-normal !important;
+     font-weight: @font-weight-bold !important;
+     font-size: @font-size-12 !important;
+     line-height: @line-spacing-18 !important;
+     letter-spacing: @character-spacing-1-2 !important;
+     color: @fix_grey2 !important;
+     text-transform: @text-transform-uppercase !important;
+}
+.fix_menu_yellow_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-1-2;
+     color: @fix_yellow;
+     text-transform: @text-transform-uppercase;
+}
+.fix_submenu_8 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-8;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0-8;
+     color: @fix_black;
+     text-transform: @text-transform-uppercase;
+}
+.fix_submenu_white_8 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-8;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0-8;
+     color: @fix_white;
+     text-transform: @text-transform-uppercase;
+}
+.fix_submenu_grey2_8 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-8;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0-8;
+     color: @fix_grey2;
+     text-transform: @text-transform-uppercase;
+}
+.fix_submenu_grey2_8_regular {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-8;
+     line-height: @line-spacing-12;
+     letter-spacing: @character-spacing-0-8;
+     color: @fix_grey2;
+     text-transform: @text-transform-uppercase;
+}
+.fix_title_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12 !important;
+     line-height: @line-spacing-20;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+}
+.fix_title_white_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_title_grey3_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey3;
+}
+.fix_title_grey2_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-8;
+     line-height: @line-spacing-12;
+     color: @fix_grey2;
+}
+.fix_workitem_list_paragraph_16 {
+     font-family: @font-family-clear-sans !important;
+     font-style: @font-style-normal !important;
+     font-weight: @font-weight-normal !important;
+     font-size: @font-size-16 !important;
+     line-height: @line-spacing-22 !important;
+     letter-spacing: @character-spacing-0 !important;
+     color: @fix_black !important;
+}
+.fix_paragraph_body_12 {
+     font-family: @font-family-clear-sans !important;
+     font-style: @font-style-normal !important;
+     font-weight: @font-weight-normal !important;
+     font-size: @font-size-12 !important;
+     line-height: @line-spacing-18 !important;
+     letter-spacing: @character-spacing-0 !important;
+     color: @color-707070 !important;
+}
+.fix_body1_10 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-10;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+}
+.fix_body1_white_10 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-10;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_body1_grey3_10 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-10;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey3;
+}
+.fix_body2_10 {
+     font-family: @font-family-clear-sans !important;
+     font-style: @font-style-normal !important;
+     font-weight: @font-weight-normal !important;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-16 !important;
+     letter-spacing: @character-spacing-0 !important;
+     color: @fix_black !important;
+}
+.fix_body2_grey3_10 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey3;
+}
+.fix_body3_grey3_8 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-8;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey3;
+}
+.fix_icon_hero_24 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-300;
+     font-size: @font-size-24 !important;
+     line-height: @line-spacing-54;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+}
+.fix_icon_hero_white_24 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-300;
+     font-size: @font-size-24 !important;
+     line-height: @line-spacing-54;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_icon_button_solid_20 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-20 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+}
+.fix_icon_button_solid_grey2_20 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-20;
+     line-height: @line-spacing-30;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey2;
+}
+.fix_icon_action_16 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-16;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+}
+.fix_icon_action_white_16 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-16 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_icon_action_grey2_16 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-16 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey2;
+}
+.fix_icon_action_white_12 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-12 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_icon_rmenu_14 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-14 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+}
+.fix_icon_lmenu_white_14 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-14 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_icon_lmenu_grey3_14 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-14 !important;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey3;
+}
+.fix_icon_action_red_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_red;
+}
+.fix_icon_action_orange_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_orange;
+}
+.fix_icon_action_ginger_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_ginger;
+}
+.fix_icon_action_yellow2_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_yellow2;
+}
+.fix_icon_action_green_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_green;
+}
+.fix_icon_button_white_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-30;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_icon_bar_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_black;
+}
+.fix_icon_bar_white_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_icon_action_grey1_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey1;
+}
+
+.fix_icon_action_grey2_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey2;
+}
+.fix_icon_card_regular_grey3_10 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-10;
+     line-height: @line-spacing-30;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey3;
+}
+.fix_icon_button_grey2_9 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-9 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_grey2;
+}
+.fix_icon_button_white_9 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-9 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+.fix_icon_button_white_8 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-8 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @fix_white;
+}
+
+.fix_sidebar_left_bg {
+     background-color: @fix_grey1;
+}
+
+.fix_background_black {
+     background-color: @fix_black;
+}
+
+.fix_background_yellow_shadow {
+     background-color: @fix_yellow;
+     box-shadow: 0px 3px 8px @fix_yellow3;
+}
+
+.fix_background_black_shadow {
+     background-color: @fix_black !important;
+     box-shadow: 4px 4px 20px @fix_grey4 !important;
+}
+
+.fix_background_grey_shadow {
+     background-color: @fix_grey1;
+     box-shadow: 4px 4px 20px @fix_grey4;
+}
+
+.fix_background_white_shadow {
+     background-color: @fix_white !important;
+     box-shadow: 4px 4px 20px @fix_grey4 !important;
+}
+
+.fix_background_green {
+     background-color: @fix_green !important;
+}
+
+.fix_background_blue {
+     background-color: @fix_blue !important;
+}
+
+.fix_background_yellow2 {
+     background-color: @fix_yellow2 !important;
+}
+
+.fix_background_pink {
+     background-color: @fix_pink !important;
+}
+
+.fix_background_grey0 {
+     background-color: @fix_grey0 !important;
+}
+
+.fix_background_grey1 {
+     background-color: @fix_grey1 !important;
+}
+
+.fix_background_grey2 {
+     background-color: @fix_grey2 !important;
+}
+
+.fix_background_grey3 {
+     background-color: @fix_grey3 !important;
+}
+
+.fix_background_olive {
+     background-color: @fix_olive !important;
+}
+
+.fix_background_ginger {
+     background-color: @fix_ginger !important;
+}
+
+.fix_background_orange {
+     background-color: @fix_orange !important;
+}
+
+.fix_background_red {
+     background-color: @fix_red !important;
+}
+
+.fix_background_white {
+     background-color: @fix_white !important;
+}
+
+.fix_border_black_2 {
+     border: solid;
+     border-width: 2px;
+     padding: 5px 10px;
+     border-radius: 8px;
+     border-color: @fix_black;
+}
+
+.fix_border_yellow_2 {
+     border: solid;
+     border-width: 2px;
+     padding: 5px 10px;
+     border-radius: 8px;
+     border-color: @fix_yellow2;
+}
+
+.fix_border_white_2 {
+     border: solid;
+     border-width: 2px;
+     padding: 5px 10px;
+     border-radius: 8px;
+     border-color: @fix_white;
+}
+
+.fix_border_white_2_circle {
+     border: solid;
+     border-width: 2px;
+     border-radius: 50%;
+     border-color: @fix_white;
+}
+
+.fix_border_grey_1 {
+     border: solid !important;
+     border-width: 1px !important;
+     border-radius: 8px !important;
+     border-color: @fix_grey2 !important;
+}
+
+.fix_border_grey_2 {
+     border: solid;
+     border-width: 2px;
+     padding: 5px 10px;
+     border-radius: 8px;
+     border-color: @fix_grey2;
+}
+
+.fix_border_green {
+     border: solid !important;
+     border-width: 1px !important;
+     border-radius: 8px !important;
+     border-color: @fix_green !important;
+}
+
+.fix_icon_sort_down_8 {
+     font-family: @font-family-font-awesome-5-pro;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-normal;
+     font-size: @font-size-8 !important;
+     line-height: @line-spacing-18;
+     letter-spacing: @character-spacing-0;
+     color: @color-707070;
+}
+
+.fix_hover_white:hover {
+     color: @fix_white;
+     a, i, span {
+          color: @fix_white;
+     }
+}
+
+.fix_hover_yellow:hover {
+     color: @fix_yellow;
+}
+
+.fix_sidebar_btn_hover:hover {
+     .fix_background_black();
+}
+
+.fix_focus_background_grey1:focus {
+     background-color: @fix_grey1 !important;
+     border-radius: 8px !important;
+     border-color: @fix_black !important;
+     border: solid !important;
+     border-size: 2px !important;
+}
+
+.text {
+     font-family: @font-family-clear-sans;
+}
+
+.fix_color_magenta {
+     color: @fix_magenta !important;
+}
+
+.fix_color_black {
+     color: @fix_black;
+}
+
+.fix_color_green {
+     color: @fix_green;
+}
+
+.fix_font_color_black_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-1-2;
+     color: @fix_black;
+}
+
+.fix_font_color_pink_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-1-2;
+     color: @fix_pink;
+}
+
+.fix_font_color_yellow2_12 {
+     font-family: @font-family-clear-sans;
+     font-style: @font-style-normal;
+     font-weight: @font-weight-bold;
+     font-size: @font-size-12;
+     line-height: @line-spacing-16;
+     letter-spacing: @character-spacing-1-2;
+     color: @fix_yellow2;
+}

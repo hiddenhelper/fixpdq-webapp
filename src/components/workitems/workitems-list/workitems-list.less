@@ -1,0 +1,65 @@
+.workItem {
+  padding-left: 20px !important;
+  &.field {
+    margin: 0 !important;
+  }
+
+  & > * > * {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  & > * > * > * {
+    padding-bottom: 0.2em !important;
+    padding-top: 0.2em !important;
+    margin-bottom: 0.3em !important;
+    margin-top: 0.1em !important;
+  }
+
+  input {
+    padding: 0 !important;
+    border: 0 !important;
+    outline: none !important;
+    border-radius: 0 !important;
+  }
+
+  .list {
+    padding-top: 0.25em !important;
+    &.workitems-list-children {
+      margin-left: 5px !important;
+      border-left: 1px solid gainsboro;
+      padding-left: 0.2em !important;
+      & > * {
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      & > * > * {
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+      }
+    }
+  }
+}
+
+.ui.checkbox {
+  label {
+    color: gainsboro;
+  }
+}
+
+.workitems-popup {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  & > * {
+    cursor: pointer;
+  }
+}
+
+.ui.inverted.bottom.popup:before {
+  background-color: dimgray;
+}

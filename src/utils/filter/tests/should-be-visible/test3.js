@@ -1,0 +1,51 @@
+export const FILTER_SAMPLE_3 = {
+  "status":{
+     "active":true,
+     "values":[
+        "NEGOTIATE",
+        "ACCEPTED",
+        "ASSIGNED",
+        "NEW",
+        "ACTIVE",
+        "ON_HOLD",
+        "REVIEW",
+        "DONE",
+        "REOPEN"
+     ]
+  },
+  "ownerid":{
+     "active":true,
+     "selection":"me",
+     "display":true,
+     "values":[]
+  },
+  "checkAll":false,
+  "creator":true,
+  "difficulty":true,
+  "priority":true
+};
+
+export const NODE_SAMPLE_3 = {
+  "date_updated":1615287735676,
+  "status":"NEW",
+  "priority":"MEDIUM",
+  "swarm_name":"Helper",
+  "start_time":1615374135324,
+  "date_created":1615287735676,
+  "end_time":1615892535324,
+  "difficulty":"MEDIUM",
+  "name":"SZQ",
+  "ownerid":"054fd5b7-4d1a-4615-afe4-acf5f1cc7e98",
+  "workitemid":"7c29356a-6b28-4d82-b5e0-946d1d833c9a",
+  "swarm":"9fedc950-8085-4c77-9799-9460ddba9151",
+  "creatorid":"054fd5b7-4d1a-4615-afe4-acf5f1cc7e98",
+  "_children":[
+     
+  ],
+  "parentid":"0",
+  "isRoot":true,
+  "sort":8030,
+  "id":"4",
+  "title":"SZQ",
+  "display":true
+}

@@ -1,0 +1,39 @@
+.filter-container {
+  background-color: rgb(242, 242, 242);
+  border: solid;
+  border-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  width: calc(75vw + 15px);
+  min-height: 3em;
+}
+
+.activeToggleButton() {
+  background-color: white !important;
+  color: grey !important;
+  &:hover {
+    background-color:#919191 !important;
+    color: #F8F8F8 !important;
+  }
+}
+
+.ui.toggle.button.active {
+  .activeToggleButton();
+
+  .check {
+    .activeToggleButton();
+  }
+}
+
+.workitems-list-filter-section {
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 3em;
+}
+
+.workitems-list-filter-separator {
+  width: 0.1em;
+  height: 2em;
+  background-color: rgb(109,109,109);
+}
